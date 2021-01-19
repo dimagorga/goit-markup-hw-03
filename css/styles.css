@@ -7,6 +7,15 @@
     --background-hero-color: #2F303A;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 body{
 background-color:var(--background-main-color);
@@ -22,9 +31,9 @@ letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;    
 }
-
+    
 .logo{
     font-family: Raleway;
     font-weight: bold;
@@ -63,7 +72,7 @@ list-style-type: none;
 }
 
 .contacts-list{
-    list-style-type: none;
+    list-style-type: none;    
 }
 
 .contacts-link{ 
