@@ -8,12 +8,12 @@
 }
 
 body{
-background-color:var(--background-main-color);
-color: var(--main-text-color);    
-font-family: 'Roboto', sans-serif;
-font-weight: normal;
-font-size: 14px;
-letter-spacing: 0.03em;
+    background-color:var(--background-main-color);
+    color: var(--main-text-color);    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 h1,
@@ -47,51 +47,53 @@ p{
 /*========HEADER======*/
 
 .conteiner,
-.nav-block,
+.navigation,
 .header-items,
-.contacts,
 .logo,
+.contacts,
 .hero{
     display: flex;
+    align-items: center;
 }
 
 .header{
     height: 80px;
 }
+
 .navigation{
+    margin-top: 24px;
+    margin-bottom: 25px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
 }
+
 
 
     
 .logo{
+    margin-right: 93px;
+
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.192;
     text-decoration: none;
     color: #000000;
-
-
-    align-items: center;
-    margin-right: 93px;
 }
 
 .logo-left-side{
     color: var(--accent-color);
 }
 
-
-.header-items.list{
-    align-items: center;
+/* .header-items{
     margin-right: 331px;
-}
+} */
 
-.header-links-item:not(:first-child){
-    padding-left: 50px;
+.header-links-item:not(:last-child){
+    padding-right: 50px;
 }
 
 .header-link{
@@ -117,13 +119,10 @@ p{
 }
 
 
-.contacts{
-    align-items: center;  
+.contacts-list-item:not(:last-child){
+    margin-right: 50px;
 }
 
-.contacts-list-item:not(:first-child){
-   padding-left: 50px; 
-}
 
 .contacts-link{ 
     font-style: normal;   
@@ -147,17 +146,15 @@ p{
 /*========MAIN========*/
 .hero-section{
     background-color: var(--background-hero-color);
-    width: 1600px;
-    height: 600px;
-    margin-bottom: 94px;
+    
 }
 
-.hero{
+/*.hero{
     display: flex;
     align-items: center;
     flex-direction: column;
     
-}
+}*/
 
 .main-title{
     font-weight: 900;
@@ -167,13 +164,11 @@ p{
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: var(--background-main-color);
-
-
-    margin-top: 200px;
-    margin-bottom: 30px;
-
 }
+
 .button-link{
+    padding: 10px 32px;
+
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
@@ -183,38 +178,8 @@ p{
     color: var(--background-main-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
-
-    margin-bottom: 200px;
-    width: 200px;
-    height: 50px;
-
-
-    
+    border-color: transparent;  
 }
-
-
-.advantages-section{
-    margin-bottom: 94px;
-}
-
-.advantages{
-    display: flex;
-}
-
-.advantsges-list-item{
-    width: 270px;
-    height: 101px;
-    justify-content: center;
-}
-
-.advantsges-list-item:not(:first-child){
-    padding-left: 30px;
-}
-
-    
-
-
 
 .description-title{
     font-weight: bold;
@@ -222,8 +187,6 @@ p{
     line-height: 1.142;
     text-transform: uppercase;
     color: var(--title-text-color);
-
-    margin-bottom: 10px;
 }
 
 .description-item{
@@ -233,53 +196,19 @@ p{
     color: var(--main-text-color);
 }
 
-
-.gallery{
-    margin-bottom: 94px;
-
-}
-
 .section-title{
     font-weight: bold;
     font-size: 36px;
     line-height:1.166;
     text-align: center;
     color: var(--title-text-color);
-
-
-    
-    margin-bottom: 50px;
 }
-
-
-
-.gallery-list{
-    display: flex;
-    justify-content: center;
-    padding-right: 215px;
-    padding-left: 215px;
-}
-
-.images-list-item:nth-child(2){
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
 
 
 
 
 .team{
     background-color: var(--background-light-color);
-    padding-bottom: 94px;
-}
-
-
-.team-list{
-    display: flex;
-    justify-content: center;
-    padding-right: 215px;
-    padding-left: 215px;
 }
 
 .team-item{
@@ -288,11 +217,6 @@ p{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;    
 }
-
-.team-item:not(:last-child){
-    margin-right: 30px;
-}
-
 
 .team-member{
     font-weight: 500;
