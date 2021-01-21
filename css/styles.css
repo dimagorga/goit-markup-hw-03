@@ -32,6 +32,10 @@ p{
     padding: 0;
 }
 
+img{
+    display: block;
+}
+
 .conteiner{
     width: 1200px;
     padding-right: 15px;
@@ -273,20 +277,26 @@ p{
 }
 
 .team-member{
+    color: var(--title-text-color);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
     text-align: center;
 
-    color: var(--title-text-color);
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .team-member-position{
+    color: var(--main-text-color);
+
     font-weight: normal;
     font-size: 16px;
     line-height: 1.187;
     text-align: center;
 
-    color: var(--main-text-color);
+    padding-bottom: 30px;    
 }
 /* ====team end==== */
 
@@ -295,6 +305,7 @@ p{
 /*========FOOTER=======*/
 .footer{
     background-color: var(--background-hero-color);
+
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -313,21 +324,25 @@ p{
 }
 
 .address-list-item-link.place{
+    color: var(--background-main-color);
+
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     text-decoration: none;
-    color: var(--background-main-color);
+    
 }
 .address-list-item-link{
+    color: rgba(255, 255, 255, 0.6);
+
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    
 
 }
 
@@ -355,12 +370,13 @@ p{
 }
 
 .buttons-link-item{
+    color: var(--title-text-color);
+    background-color: var(--background-light-color);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
-    text-align: center;
-    color: var(--title-text-color);
-    background-color: var(--background-light-color);
+    text-align: center;    
     border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
@@ -407,11 +423,12 @@ p{
 }
 
 .porfolio-description-title{
+    color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--title-text-color);
+    
 
     margin-top: 20px;
     margin-bottom: 4px;
@@ -421,10 +438,11 @@ p{
 }
 
 .porfolio-description{
+    color: var(--main-text-color);
     font-weight: normal;
     font-size: 16px;
     line-height: 1.875;
-    color: var(--main-text-color);
+    
 
     padding-left: 24px;
     padding-right: 24px;
