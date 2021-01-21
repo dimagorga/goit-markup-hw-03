@@ -415,20 +415,12 @@ img{
     padding-bottom: 94px;
     
 }
-.cards .conteiner{
-    /* padding-bottom: 94px; */
-}
-
 
 .cards-list{    
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
-    margin-bottom: -30px;
-    
 }
-
-
 
 .portfolio-list-item{       
     margin-right: 30px;
