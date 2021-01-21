@@ -71,7 +71,7 @@ img{
 .nav-block{
     height: 80px;
     display: flex;
-    justify-content: space-between;    
+       
 }
 
 .navigation{
@@ -104,7 +104,7 @@ img{
 }
 
 .header-links-item:not(:last-child){
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .header-link{
@@ -132,6 +132,7 @@ img{
 
 .contacts{
     display: flex;
+    margin-left: auto;
 }
 
 .contacts-link{ 
