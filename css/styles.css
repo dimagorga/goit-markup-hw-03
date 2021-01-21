@@ -255,8 +255,12 @@ p{
 /* ====team==== */
 .team{
     background-color: var(--background-light-color);
-
+    padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.team-conteiner{
+    
 }
 
 .team-list{
