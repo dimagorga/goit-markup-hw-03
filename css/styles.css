@@ -210,10 +210,14 @@ img{
 
 .advantages{
     display: flex;
-    justify-content: space-between;
+    
 }
 
-.advantsges-list-item{
+.advantages-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.advantages-list-item{
     width: 270px;
     height: 101px;
 }
@@ -224,7 +228,9 @@ img{
     font-weight: bold;
     font-size: 14px;
     line-height: 1.142;
-    text-transform: uppercase;    
+    text-transform: uppercase;   
+
+    margin-bottom: 10px; 
 }
 
 .description-item{
@@ -255,7 +261,10 @@ img{
 
 .gallery-list{
     display: flex;
-    justify-content: space-between;
+}
+
+.images-list-item:not(:last-child){
+    margin-right: 30px;
 }
 /* ====gallery end===== */
 
@@ -268,7 +277,10 @@ img{
 
 .team-list{
     display: flex;
-    justify-content: space-between;
+}
+
+.team-item:not(:last-child){
+    margin-right: 30px;
 }
 
 .team-item{
@@ -407,6 +419,8 @@ img{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
 
 .portfolio-list-item{
     border: 1px solid  #EEEEEE;   
