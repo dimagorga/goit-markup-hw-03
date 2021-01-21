@@ -66,10 +66,12 @@ img{
 .header{
     border: solid 1px;
     border-color: #ECECEC;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-block{
-    height: 80px;
+   
     display: flex;
        
 }
