@@ -66,13 +66,14 @@ img{
 .header{
     border: solid 1px;
     border-color: #ECECEC;
-    padding-top: 24px;
-    padding-bottom: 25px;
+
 }
 
 .nav-block{
    
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
        
 }
 
@@ -372,6 +373,8 @@ img{
 /* ==buttons-section== */
 .buttons-section{
     padding-top: 94px;
+    padding-bottom: 50px;
+    
     text-align: center;
 }
 
@@ -411,7 +414,6 @@ img{
 
 /* ==card-section==  */
 .cards{
-    padding-top: 50px;
     padding-bottom: 94px;
     
 }
