@@ -72,8 +72,7 @@ img{
 .nav-block{
    
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
        
 }
 
@@ -86,9 +85,13 @@ img{
     display: flex;    
 }
     
-.logo{
+.header-logo{
+    padding-top: 24px;
+    padding-bottom: 25px;
     margin-right: 93px;
+}
 
+.logo{
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -117,6 +120,9 @@ img{
     letter-spacing: 0.02em;
     text-decoration: none;
     color:var(--title-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     }
 
 .header-link.studio{
@@ -145,7 +151,10 @@ img{
     line-height: 1.142;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--main-text-color);    
+    color: var(--main-text-color); 
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contacts-list-item:nth-child(2){
@@ -164,10 +173,8 @@ img{
 .hero-section{
     background-color: var(--background-hero-color);
 
-    text-align: center;        
-}
-
-.hero-conteiner{
+    text-align: center; 
+    
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -204,7 +211,7 @@ img{
 /* =====hero end===== */
 
 /* ======advantages====== */
-.advantages-section .conteiner{
+.advantages-section{
     padding-top: 94px;
     padding-bottom: 94px;
     
@@ -257,7 +264,7 @@ img{
     margin-bottom: 50px;    
 }
 
-.gallery .conteiner{
+.gallery{
     padding-bottom: 94px;
 }
 
@@ -293,6 +300,11 @@ img{
     background-color: var(--background-main-color); 
 }
 
+.team-description{
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
 .team-member{
     color: var(--title-text-color);
 
@@ -301,19 +313,16 @@ img{
     line-height: 1.187;
     text-align: center;
 
-    
-    margin-top: 30px;
     margin-bottom: 10px;
 }
+
 .team-member-position{
     color: var(--main-text-color);
 
     font-weight: normal;
     font-size: 16px;
     line-height: 1.187;
-    text-align: center;
-
-    padding-bottom: 30px;    
+    text-align: center;   
 }
 /* ====team end==== */
 
@@ -325,7 +334,6 @@ img{
 
     padding-top: 60px;
     padding-bottom: 60px;
-
 }
 
 .logo.bottom{
