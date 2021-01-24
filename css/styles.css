@@ -98,6 +98,8 @@ img{
     line-height: 1.192;
     text-decoration: none;
     color: #000000;
+
+    display: block;
 }
 
 .logo-left-side{
@@ -120,6 +122,8 @@ img{
     letter-spacing: 0.02em;
     text-decoration: none;
     color:var(--title-text-color);
+    
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -152,7 +156,8 @@ img{
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--main-text-color); 
-    
+
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -382,14 +387,17 @@ img{
 /* ==buttons-section== */
 .buttons-section{
     padding-top: 94px;
-    padding-bottom: 50px;
-    
+    padding-bottom: 94px;
+
+        
     text-align: center;
 }
 
 .buttons-list{
     display: flex;
     justify-content: center;
+
+    padding-bottom: 50px;
 }
 
 .buttons-list-item:not(:last-child){
@@ -422,14 +430,12 @@ img{
 /* ==buttons-section end== */
 
 /* ==card-section==  */
-.cards{
-    padding-bottom: 94px;    
-}
 
 .cards-list{    
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
+        
 }
 
 .portfolio-list-item{       
@@ -453,6 +459,14 @@ img{
     color: var(--title-text-color);
 }
 
+.description{
+    display: block;
+    text-align: left;
+
+    border: 1px solid #EEEEEE;
+    padding: 20px 24px;
+}
+
 .porfolio-description-title{
     color: var(--title-text-color);
     font-weight: bold;
@@ -461,27 +475,14 @@ img{
     letter-spacing: 0.06em;
     
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
-
 }
-.description{
-    border: 1px solid #EEEEEE;
-    padding-top: 20px;
-    padding-bottom: 20px;
 
-}
 
 .porfolio-description{
     color: var(--main-text-color);
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.875;
-    
-
-    padding-left: 24px;
-    padding-right: 24px;
-    
+    line-height: 1.875;    
 }
 /* ==card-section end==  */
 
