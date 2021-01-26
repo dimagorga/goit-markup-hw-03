@@ -430,7 +430,7 @@ img{
 .cards-list{    
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
+    flex-basis: calc(100% / 3 - 30px);
         
 }
 
